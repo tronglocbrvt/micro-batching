@@ -48,3 +48,9 @@ func main() {
     batcher.Shutdown()
 }
 ```
+
+## Test
+To test the Micro-Batching Library in your Go project, you can use the command (root directory of the project):
+```bash
+go test ./...
+```
